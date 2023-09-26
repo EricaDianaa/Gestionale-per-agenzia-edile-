@@ -110,7 +110,7 @@ namespace w14_1
                 Label1.Text = "Alcuni campi sono sbagliati o vuoti riprovare";
             }
             finally { conn.Close(); }
-
+            Response.Redirect("Default.aspx");
         }
 
         protected void Modifica_Click(object sender, EventArgs e)
@@ -161,7 +161,7 @@ namespace w14_1
                 cmd2.ExecuteNonQuery();
 
                 conn2.Close();
-            Response.Redirect(Request.RawUrl);
+            Response.Redirect("Default.aspx");
 
         }
 
