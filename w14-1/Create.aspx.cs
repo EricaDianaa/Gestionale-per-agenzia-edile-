@@ -16,6 +16,7 @@ namespace w14_1
 
                 if (!string.IsNullOrEmpty(Request.QueryString["ID"]))
                 {
+                    Modifica.Visible = true;
                     string connectionString = ConfigurationManager.ConnectionStrings["ConnectionDB"].ConnectionString.ToString();
                     SqlConnection conn2 = new SqlConnection(connectionString);
                     SqlCommand cmd2 = new SqlCommand("select * from Dipendente WHERE IdDipendenti=@id", conn2);

@@ -3,7 +3,7 @@
     background: linear-gradient(90deg, rgba(143,91,91,1) 0%, rgba(9,9,121,1) 100%, rgba(0,212,255,1) 100%);
    background-repeat:no-repeat;
    background-size:cover;
-    
+    min-height:1000px;
 }
 h5{ 
     color:lightslategray;

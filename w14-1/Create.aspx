@@ -27,7 +27,7 @@
           <h5>Inserisci mansione</h5>  
  <asp:TextBox ID="Mansione" runat="server"  CssClass="rounded-2 border border-secondary  w-75 mx-auto"></asp:TextBox><br />
             <asp:Button ID="Button1" runat="server" Text="Aggiungi"  CssClass="btn btn-primary" Onclick="Button1_Click"/>
-              <asp:Button ID="Modifica" runat="server" Text="Modifica"  CssClass="btn btn-danger" Onclick="Modifica_Click"/>
+              <asp:Button ID="Modifica" runat="server" Text="Modifica" Visible="false"  CssClass="btn btn-danger mt-2" Onclick="Modifica_Click"/>
          <asp:Label ID="Label1" runat="server" Visible="false" Text=""></asp:Label>
         
             <div>
